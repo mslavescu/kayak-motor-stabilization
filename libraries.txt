@@ -1,0 +1,40 @@
+# Required Arduino Libraries for ESP32 Kayak Stabilization System
+# Install these through Arduino IDE Library Manager
+
+MPU6050 by Electronic Cats
+- Version: 0.5.0 or later
+- Used for: IMU sensor communication and data reading
+
+ESP32Servo by Kevin Harrington
+- Version: 1.1.1 or later
+- Used for: Servo motor control on ESP32
+
+BluetoothSerial by Arduino
+- Version: Built-in with ESP32 board support
+- Used for: Wireless communication with smartphone app
+
+Preferences by Arduino
+- Version: Built-in with ESP32 board support
+- Used for: Storing PID parameters and system settings
+
+Wire by Arduino
+- Version: Built-in with ESP32 board support
+- Used for: I2C communication with IMU sensor
+
+# Installation Instructions:
+1. Open Arduino IDE
+2. Go to Sketch > Include Library > Manage Libraries
+3. Search for each library name above
+4. Click Install for each required library
+5. Restart Arduino IDE if prompted
+
+# Board Setup:
+- Board: ESP32 Dev Module
+- Upload Speed: 115200
+- CPU Frequency: 240MHz
+- Flash Frequency: 80MHz
+- Flash Mode: QIO
+- Flash Size: 4MB
+- Partition Scheme: Default
+- Core Debug Level: None
+- PSRAM: Disabled
