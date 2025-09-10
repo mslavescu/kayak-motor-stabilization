@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kayak Stabilizer</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="scan_devices">Scan Devices</string>
+    <string name="stabilization_on">Stabilization ON</string>
+    <string name="stabilization_off">Stabilization OFF</string>
+    <string name="emergency_stop">Emergency Stop</string>
+    <string name="reset_emergency">Reset Emergency</string>
+    <string name="roll_label">Roll:</string>
+    <string name="pitch_label">Pitch:</string>
+    <string name="battery_label">Battery:</string>
+    <string name="status_label">Status:</string>
+    <string name="pid_settings">PID Settings</string>
+    <string name="kp_label">Kp:</string>
+    <string name="ki_label">Ki:</string>
+    <string name="kd_label">Kd:</string>
+    <string name="low_battery_warning">Low Battery Warning!</string>
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="bluetooth_disabled">Please enable Bluetooth</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="scanning">Scanning...</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="location_permission_required">Location permission required for BLE</string>
+</resources>
